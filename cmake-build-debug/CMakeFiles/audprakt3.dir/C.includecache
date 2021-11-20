@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/marce/CLionProjects/audprakt3/main.c
+main.h
+C:/Users/marce/CLionProjects/audprakt3/main.h
+sort.h
+C:/Users/marce/CLionProjects/audprakt3/sort.h
+
+C:/Users/marce/CLionProjects/audprakt3/main.h
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+string.h
+-
+
+C:/Users/marce/CLionProjects/audprakt3/sort.h
+
