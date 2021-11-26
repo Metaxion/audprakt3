@@ -9,11 +9,17 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-#define ARRAYSIZE 200000
 
-void initArrays(int *randomArray, int *aufsteigendArray, int *absteigendArray);
+void initArrays(int *randomArray, int *aufsteigendArray, int *absteigendArray, int *vergleichsarray);
 void printArray(int *array);
 int* testTime(void (*sortMethod)(int*), int *array);
 void showTime(void (*sortMethod)(int*), int *randomArray, int *aufsteigendArray, int *absteigendArray);
+/**
+ *
+ * @param array1
+ * @param array2
+ * @return 1 wenn Arrays gleich sind, sonst 0
+ */
+int equalArray(int *array1, int *array2);
 
 #endif //AUDPRAKT3_MAIN_H

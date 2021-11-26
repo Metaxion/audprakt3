@@ -5,6 +5,15 @@
 #include "sort.h"
 
 void selectionSort(int *array) {
+    int i, j, min, t;
+
+    for (i = 0; i < ARRAYSIZE - 1; i++)
+    {
+        min = i;
+        for (j = i + 1; j < ARRAYSIZE; j++)
+            if (array[j] < array[min]) min = j;
+        t = array[min]; array[min] = array[i]; array[i] = t;
+    }
 
 }
 

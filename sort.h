@@ -4,6 +4,7 @@
 
 #ifndef AUDPRAKT3_SORT_H
 #define AUDPRAKT3_SORT_H
+#define ARRAYSIZE 20 //200000
 
 void selectionSort(int *array);
 void insertionSort(int *array);
