@@ -9,6 +9,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
+#include <limits.h>
+
+#include "sort.h"
 
 void initArrays(int *randomArray, int *aufsteigendArray, int *absteigendArray, int *vergleichsarray);
 void printArray(int *array);

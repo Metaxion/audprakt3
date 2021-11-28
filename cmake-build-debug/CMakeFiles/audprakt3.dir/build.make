@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\marce\CLionProjects\audprakt3
+CMAKE_SOURCE_DIR = C:\Users\denni\CLionProjects\audprakt3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\marce\CLionProjects\audprakt3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\denni\CLionProjects\audprakt3\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/audprakt3.dir/depend.make
@@ -78,94 +78,94 @@ include CMakeFiles/audprakt3.dir/flags.make
 
 CMakeFiles/audprakt3.dir/main.c.obj: CMakeFiles/audprakt3.dir/flags.make
 CMakeFiles/audprakt3.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marce\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/audprakt3.dir/main.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\audprakt3.dir\main.c.obj   -c C:\Users\marce\CLionProjects\audprakt3\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\denni\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/audprakt3.dir/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\audprakt3.dir\main.c.obj   -c C:\Users\denni\CLionProjects\audprakt3\main.c
 
 CMakeFiles/audprakt3.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/audprakt3.dir/main.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\marce\CLionProjects\audprakt3\main.c > CMakeFiles\audprakt3.dir\main.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\denni\CLionProjects\audprakt3\main.c > CMakeFiles\audprakt3.dir\main.c.i
 
 CMakeFiles/audprakt3.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/audprakt3.dir/main.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\marce\CLionProjects\audprakt3\main.c -o CMakeFiles\audprakt3.dir\main.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\denni\CLionProjects\audprakt3\main.c -o CMakeFiles\audprakt3.dir\main.c.s
 
 CMakeFiles/audprakt3.dir/selection.c.obj: CMakeFiles/audprakt3.dir/flags.make
 CMakeFiles/audprakt3.dir/selection.c.obj: ../selection.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marce\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/audprakt3.dir/selection.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\audprakt3.dir\selection.c.obj   -c C:\Users\marce\CLionProjects\audprakt3\selection.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\denni\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/audprakt3.dir/selection.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\audprakt3.dir\selection.c.obj   -c C:\Users\denni\CLionProjects\audprakt3\selection.c
 
 CMakeFiles/audprakt3.dir/selection.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/audprakt3.dir/selection.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\marce\CLionProjects\audprakt3\selection.c > CMakeFiles\audprakt3.dir\selection.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\denni\CLionProjects\audprakt3\selection.c > CMakeFiles\audprakt3.dir\selection.c.i
 
 CMakeFiles/audprakt3.dir/selection.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/audprakt3.dir/selection.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\marce\CLionProjects\audprakt3\selection.c -o CMakeFiles\audprakt3.dir\selection.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\denni\CLionProjects\audprakt3\selection.c -o CMakeFiles\audprakt3.dir\selection.c.s
 
 CMakeFiles/audprakt3.dir/shell.c.obj: CMakeFiles/audprakt3.dir/flags.make
 CMakeFiles/audprakt3.dir/shell.c.obj: ../shell.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marce\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/audprakt3.dir/shell.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\audprakt3.dir\shell.c.obj   -c C:\Users\marce\CLionProjects\audprakt3\shell.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\denni\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/audprakt3.dir/shell.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\audprakt3.dir\shell.c.obj   -c C:\Users\denni\CLionProjects\audprakt3\shell.c
 
 CMakeFiles/audprakt3.dir/shell.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/audprakt3.dir/shell.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\marce\CLionProjects\audprakt3\shell.c > CMakeFiles\audprakt3.dir\shell.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\denni\CLionProjects\audprakt3\shell.c > CMakeFiles\audprakt3.dir\shell.c.i
 
 CMakeFiles/audprakt3.dir/shell.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/audprakt3.dir/shell.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\marce\CLionProjects\audprakt3\shell.c -o CMakeFiles\audprakt3.dir\shell.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\denni\CLionProjects\audprakt3\shell.c -o CMakeFiles\audprakt3.dir\shell.c.s
 
 CMakeFiles/audprakt3.dir/heap.c.obj: CMakeFiles/audprakt3.dir/flags.make
 CMakeFiles/audprakt3.dir/heap.c.obj: ../heap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marce\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/audprakt3.dir/heap.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\audprakt3.dir\heap.c.obj   -c C:\Users\marce\CLionProjects\audprakt3\heap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\denni\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/audprakt3.dir/heap.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\audprakt3.dir\heap.c.obj   -c C:\Users\denni\CLionProjects\audprakt3\heap.c
 
 CMakeFiles/audprakt3.dir/heap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/audprakt3.dir/heap.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\marce\CLionProjects\audprakt3\heap.c > CMakeFiles\audprakt3.dir\heap.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\denni\CLionProjects\audprakt3\heap.c > CMakeFiles\audprakt3.dir\heap.c.i
 
 CMakeFiles/audprakt3.dir/heap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/audprakt3.dir/heap.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\marce\CLionProjects\audprakt3\heap.c -o CMakeFiles\audprakt3.dir\heap.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\denni\CLionProjects\audprakt3\heap.c -o CMakeFiles\audprakt3.dir\heap.c.s
 
 CMakeFiles/audprakt3.dir/quick.c.obj: CMakeFiles/audprakt3.dir/flags.make
 CMakeFiles/audprakt3.dir/quick.c.obj: ../quick.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marce\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/audprakt3.dir/quick.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\audprakt3.dir\quick.c.obj   -c C:\Users\marce\CLionProjects\audprakt3\quick.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\denni\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/audprakt3.dir/quick.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\audprakt3.dir\quick.c.obj   -c C:\Users\denni\CLionProjects\audprakt3\quick.c
 
 CMakeFiles/audprakt3.dir/quick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/audprakt3.dir/quick.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\marce\CLionProjects\audprakt3\quick.c > CMakeFiles\audprakt3.dir\quick.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\denni\CLionProjects\audprakt3\quick.c > CMakeFiles\audprakt3.dir\quick.c.i
 
 CMakeFiles/audprakt3.dir/quick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/audprakt3.dir/quick.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\marce\CLionProjects\audprakt3\quick.c -o CMakeFiles\audprakt3.dir\quick.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\denni\CLionProjects\audprakt3\quick.c -o CMakeFiles\audprakt3.dir\quick.c.s
 
 CMakeFiles/audprakt3.dir/merge.c.obj: CMakeFiles/audprakt3.dir/flags.make
 CMakeFiles/audprakt3.dir/merge.c.obj: ../merge.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marce\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/audprakt3.dir/merge.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\audprakt3.dir\merge.c.obj   -c C:\Users\marce\CLionProjects\audprakt3\merge.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\denni\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/audprakt3.dir/merge.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\audprakt3.dir\merge.c.obj   -c C:\Users\denni\CLionProjects\audprakt3\merge.c
 
 CMakeFiles/audprakt3.dir/merge.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/audprakt3.dir/merge.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\marce\CLionProjects\audprakt3\merge.c > CMakeFiles\audprakt3.dir\merge.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\denni\CLionProjects\audprakt3\merge.c > CMakeFiles\audprakt3.dir\merge.c.i
 
 CMakeFiles/audprakt3.dir/merge.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/audprakt3.dir/merge.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\marce\CLionProjects\audprakt3\merge.c -o CMakeFiles\audprakt3.dir\merge.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\denni\CLionProjects\audprakt3\merge.c -o CMakeFiles\audprakt3.dir\merge.c.s
 
 CMakeFiles/audprakt3.dir/insertion.c.obj: CMakeFiles/audprakt3.dir/flags.make
 CMakeFiles/audprakt3.dir/insertion.c.obj: ../insertion.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\marce\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/audprakt3.dir/insertion.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\audprakt3.dir\insertion.c.obj   -c C:\Users\marce\CLionProjects\audprakt3\insertion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\denni\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/audprakt3.dir/insertion.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\audprakt3.dir\insertion.c.obj   -c C:\Users\denni\CLionProjects\audprakt3\insertion.c
 
 CMakeFiles/audprakt3.dir/insertion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/audprakt3.dir/insertion.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\marce\CLionProjects\audprakt3\insertion.c > CMakeFiles\audprakt3.dir\insertion.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\denni\CLionProjects\audprakt3\insertion.c > CMakeFiles\audprakt3.dir\insertion.c.i
 
 CMakeFiles/audprakt3.dir/insertion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/audprakt3.dir/insertion.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\marce\CLionProjects\audprakt3\insertion.c -o CMakeFiles\audprakt3.dir\insertion.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\denni\CLionProjects\audprakt3\insertion.c -o CMakeFiles\audprakt3.dir\insertion.c.s
 
 # Object files for target audprakt3
 audprakt3_OBJECTS = \
@@ -191,7 +191,7 @@ audprakt3.exe: CMakeFiles/audprakt3.dir/build.make
 audprakt3.exe: CMakeFiles/audprakt3.dir/linklibs.rsp
 audprakt3.exe: CMakeFiles/audprakt3.dir/objects1.rsp
 audprakt3.exe: CMakeFiles/audprakt3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\marce\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable audprakt3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\denni\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable audprakt3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\audprakt3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -204,6 +204,6 @@ CMakeFiles/audprakt3.dir/clean:
 .PHONY : CMakeFiles/audprakt3.dir/clean
 
 CMakeFiles/audprakt3.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\marce\CLionProjects\audprakt3 C:\Users\marce\CLionProjects\audprakt3 C:\Users\marce\CLionProjects\audprakt3\cmake-build-debug C:\Users\marce\CLionProjects\audprakt3\cmake-build-debug C:\Users\marce\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles\audprakt3.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\denni\CLionProjects\audprakt3 C:\Users\denni\CLionProjects\audprakt3 C:\Users\denni\CLionProjects\audprakt3\cmake-build-debug C:\Users\denni\CLionProjects\audprakt3\cmake-build-debug C:\Users\denni\CLionProjects\audprakt3\cmake-build-debug\CMakeFiles\audprakt3.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/audprakt3.dir/depend
 

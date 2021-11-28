@@ -1,5 +1,4 @@
 #include "main.h"
-#include "sort.h"
 
 int *vergleichsArray;
 
@@ -10,6 +9,8 @@ int main() {
     int *absteigendArray = calloc(1, sizeof(int[ARRAYSIZE]));
     vergleichsArray = calloc(1, sizeof(int[ARRAYSIZE]));
     initArrays(randomArray, aufsteigendArray, absteigendArray, vergleichsArray);
+
+    printf("Erster Durchlauf - Zweiter Durchlauf - Dritter Durchlauf - Durchschnitt\n");
 
     printf("Selection Sort:\n");
     showTime(selectionSort, randomArray, aufsteigendArray, absteigendArray);
@@ -30,10 +31,13 @@ int main() {
 void initArrays(int *randomArray, int *aufsteigendArray, int *absteigendArray, int *vergleichsarray) {
     time_t t;
     srand((unsigned) time(&t));
-    for(int i = 0 ; i < ARRAYSIZE ; i++) {
+    aufsteigendArray[0] = 0;
+    vergleichsarray[0] = 0;
+    absteigendArray[0] = 0;
+    for(int i = 1 ; i < ARRAYSIZE ; i++) {
         randomArray[i] = (rand() % ARRAYSIZE) + 1;
-        aufsteigendArray[i] = i + 1;
-        vergleichsarray[i] = i + 1;
+        aufsteigendArray[i] = i;
+        vergleichsarray[i] = i;
         absteigendArray[i] = ARRAYSIZE - i;
     }
 }
@@ -42,6 +46,7 @@ void printArray(int *array) {
     for(int i = 0; i < ARRAYSIZE ; i++) {
         printf("%i, ", array[i]);
     }
+    printf("\n");
 }
 
 int* testTime(void (*sortMethod)(int*), int *array) {
@@ -53,7 +58,7 @@ int* testTime(void (*sortMethod)(int*), int *array) {
     time_begin = clock();
     sortMethod(localArray);
     time_end = clock();
-    printArray(localArray);
+    SHOW_ARRAYS ? printArray(localArray) : 0;
     tr1 = time_end - time_begin;
     result[0] = tr1;
 
@@ -61,7 +66,7 @@ int* testTime(void (*sortMethod)(int*), int *array) {
     time_begin = clock();
     sortMethod(localArray);
     time_end = clock();
-    printArray(localArray);
+    SHOW_ARRAYS ? printArray(localArray) : 0;
     tr2 = time_end - time_begin;
     result[1] = tr2;
 
@@ -69,7 +74,7 @@ int* testTime(void (*sortMethod)(int*), int *array) {
     time_begin = clock();
     sortMethod(localArray);
     time_end = clock();
-    printArray(localArray);
+    SHOW_ARRAYS ? printArray(localArray) : 0;
     tr3 = time_end - time_begin;
     result[2] = tr3;
 
