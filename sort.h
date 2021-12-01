@@ -4,8 +4,10 @@
 
 #ifndef AUDPRAKT3_SORT_H
 #define AUDPRAKT3_SORT_H
-#define ARRAYSIZE 200001
-#define SHOW_ARRAYS 0
+#define ARRAYSIZE 21 // default 200001
+#define SHOW_ARRAYS 0 // 0(dont show) oder 1 (show)
+
+#include <limits.h>
 
 void selectionSort(int *array);
 void insertionSort(int *array);

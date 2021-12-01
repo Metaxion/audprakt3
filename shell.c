@@ -1,7 +1,4 @@
-//
-// Created by marce on 20.11.2021.
-//
-#include "main.h"
+#include "sort.h"
 
 void shellSort(int *array) {
     int i, j, h, v;

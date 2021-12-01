@@ -1,7 +1,4 @@
-//
-// Created by marce on 20.11.2021.
-//
-#include "main.h"
+#include "sort.h"
 
 void quickSortt (int* a, int l, int r)
 {
@@ -9,8 +6,8 @@ void quickSortt (int* a, int l, int r)
 
     if (r > l)
     {
-        v = a[(l+r+1)/2];
-
+        //v = a[(l+r+1)/2];
+        v = a[r];
         i = l-1; j = r;
         for (;;)
         {
