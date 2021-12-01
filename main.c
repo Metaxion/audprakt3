@@ -43,7 +43,7 @@ void initArrays(int *randomArray, int *aufsteigendArray, int *absteigendArray, i
 }
 
 void printArray(int *array) {
-    for(int i = 0; i < ARRAYSIZE ; i++) {
+    for(int i = 1; i < ARRAYSIZE; i++) {
         printf("%i, ", array[i]);
     }
     printf("\n");
@@ -53,6 +53,9 @@ int* testTime(void (*sortMethod)(int*), int *array) {
     int *localArray = calloc(1, sizeof(int[ARRAYSIZE]));
     int time_begin, time_end, tr1, tr2, tr3, trd;
     int *result = calloc(1, sizeof(int[4]));
+
+    memcpy(localArray, array, sizeof(int[ARRAYSIZE]));
+    sortMethod(localArray);
 
     memcpy(localArray, array, sizeof(int[ARRAYSIZE]));
     time_begin = clock();
@@ -87,15 +90,15 @@ int* testTime(void (*sortMethod)(int*), int *array) {
 
 void showTime(void (*sortMethod)(int*), int *randomArray, int *aufsteigendArray, int *absteigendArray){
     int *result;
-    printf("Zufall:");
+    printf("Zufall:\n");
     result = testTime(sortMethod, randomArray);
     printf("%i - %i - %i - %i\n", result[0], result[1], result[2], result[3]);
     free(result);
-    printf("Aufst.:");
+    printf("Aufst.:\n");
     result = testTime(sortMethod, aufsteigendArray);
     printf("%i - %i - %i - %i\n", result[0], result[1], result[2], result[3]);
     free(result);
-    printf("Abste.:");
+    printf("Abste.:\n");
     result = testTime(sortMethod, absteigendArray);
     printf("%i - %i - %i - %i\n\n", result[0], result[1], result[2], result[3]);
     free(result);
