@@ -13,7 +13,6 @@
 #include "sort.h"
 
 void initArrays(int *randomArray, int *aufsteigendArray, int *absteigendArray, int *vergleichsarray);
-void printArray(int *array);
 int* testTime(void (*sortMethod)(int*), int *array);
 void showTime(void (*sortMethod)(int*), int *randomArray, int *aufsteigendArray, int *absteigendArray);
 /**

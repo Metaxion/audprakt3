@@ -3,7 +3,6 @@
 int *vergleichsArray;
 
 int main() {
-
     int *randomArray = calloc(1, sizeof(int[ARRAYSIZE]));
     int *aufsteigendArray = calloc(1, sizeof(int[ARRAYSIZE]));
     int *absteigendArray = calloc(1, sizeof(int[ARRAYSIZE]));
@@ -43,7 +42,7 @@ void initArrays(int *randomArray, int *aufsteigendArray, int *absteigendArray, i
 }
 
 void printArray(int *array) {
-    for(int i = 1; i < ARRAYSIZE; i++) {
+    for(int i = 0; i < ARRAYSIZE; i++) {
         printf("%i, ", array[i]);
     }
     printf("\n");
@@ -53,7 +52,6 @@ int* testTime(void (*sortMethod)(int*), int *array) {
     int *localArray = calloc(1, sizeof(int[ARRAYSIZE]));
     int time_begin, time_end, tr1, tr2, tr3, trd;
     int *result = calloc(1, sizeof(int[4]));
-
     memcpy(localArray, array, sizeof(int[ARRAYSIZE]));
     sortMethod(localArray);
 
